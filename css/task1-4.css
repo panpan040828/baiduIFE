@@ -1,0 +1,29 @@
+html,body{margin:0px;height:100%;}
+
+.floater{float:left;
+		height:50%;/*指的是这个悬浮在左边的div的高度为浏览器高度的一半*/
+		 margin-bottom: -120px;/*将此div向上移动内容div高度的一半*/
+		}
+
+.content{
+        clear:both;/*元素左右两侧均不能出现浮动元素*/
+        height:200px;
+        width:400px;
+        position:relative;
+        background-color: #ccc;
+        margin:0px auto;
+		 }
+.circle1, .circle2 {
+					background: #fc0;
+					width:50px;
+					height:50px;							
+}
+
+.circle1{border-radius: 0px 0px 50px 0px;
+		
+}
+
+.circle2{border-radius: 50px 0px 0px 0px;
+		position: relative;
+		margin:100px 0px 0px 350px;
+}
