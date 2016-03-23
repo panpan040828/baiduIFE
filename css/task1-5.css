@@ -17,6 +17,7 @@ body{background-color:rgb(247, 247, 247);
 .lihg-25{line-height:25px;}
 .mt-10{margin-top: 10px;}
 .mt-20{margin-top: 20px;}
+.mb-15{margin-bottom:15px;}
 /*nav*/
 .navbar{padding:20px 50px 20px 30px;}
 .navbar-link{height:20px;}
@@ -85,19 +86,19 @@ p img{width:100%;}
 				margin-top:0px;
 
 }
-
-.myform  div label{width:50%;text-align: right;float:left;}
+ 
+.myform  div label{width:50%;text-align: right;float:left;margin-right:10px;}
 .myform div input{height:25px;}
-.warning-message{width:50%;
+.warning-message{
 				text-align: left;
-				float:right;
 				margin:10px 0px 20px 0px;
 				color:#BDBBBB;
 				font-size:13px;
 			}
-#gender label{float:none;vertical-align: 50%;}
+			
+#gender-choose label{float:none;vertical-align: 50%;}
 .choose-city {height:25px;}
-#hobby label{float:none;vertical-align: 50%;}
+#hobby-choose label{float:none;vertical-align: 50%;margin-right:0px;}
 #self-introduction textarea{overflow:hidden;}
 #submit-button{width:100%;
 				height:40px;

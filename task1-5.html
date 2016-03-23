@@ -27,50 +27,58 @@
 		<div class="article-back right-sidebar">
 			<h3 class="sidebar-title">这里以后是一个侧栏，这是侧栏的标题</h3>
 			<form  class="myform">
-				<div>
-					<label>请输入邮箱地址：</label>
-					<input type="text" placeholder="这是一个文本输入框" />
-					<div class="warning-message">邮箱地址请按要求格式输入</div>
+				<div id="email">
+					<label>请输入邮箱地址</label>
+					<div class="fl-left">
+						<input type="text" placeholder="这是一个文本输入框" />
+						<div class="warning-message">邮箱地址请按要求格式输入</div>
+					</div>
 				</div>
 				
 
-				<div class="password mt-10">
+				<div id="password">
 					<div class="clr-both">
-						<label>请输入密码：</label>
-						<input type="password" placeholder="这是一个文本输入框" />
+						<label>请输入密码</label>
+						<div class="fl-left mb-15">
+							<input  type="password" placeholder="这是一个文本输入框" />
+						</div>
 					</div>
-								
-					<div class="mt-10">
-						<label>请重复输入密码：</label>
-						<input type="password" placeholder="这是一个文本输入框" />
-					</div>
-				
-					<div class="warning-message">
-						密码请为6-16位英文数字
+											
+					<div class=" clr-both">
+						<label>请重复输入密码</label>
+						<div class="fl-left">
+							<input type="password" placeholder="这是一个文本输入框" />
+							<div class="warning-message">
+								密码请为6-16位英文数字
+							</div>
+						</div>
 					</div>
 				</div>
+					
+				
 
-				<div class="clr-both">
-					<label>性别：</label>
-					<div id="gender">
+				<div class="clr-both" id="gender">
+					<label>性别</label>
+					<div id="gender-choose" class="fl-left mb-15">
 						<input id="male" type="radio" />
 						<label class="" for="male">男</label>
 						<input id="female" type="radio" />
 						<label for="female">女</label>
+					</div>					
+				</div>
+
+				<div class="clr-both" id="city">
+					<label>城市</label>
+					<div class="fl-left mb-15">
+						<select class="choose-city">
+  							<option value="北京">北京</option>
+						</select>
 					</div>
-					
 				</div>
 
-				<div class="mt-10">
-					<label>城市：</label>
-					<select class="choose-city">
-  						<option value="北京">北京</option>
-					</select>
-				</div>
-
-				<div class="mt-10" >
-					<label>爱好：</label>
-					<div id="hobby">
+				<div class="clr-both"id="hobby">
+					<label>爱好</label>
+					<div id="hobby-choose" class="fl-left mb-15">
 						<input type="checkbox" id="sports" />
 						<label for="sports">运动</label>
 						<input type="checkbox"  id="art" />
@@ -80,14 +88,16 @@
 					</div>
 				</div>
 
-				<div class="mt-10" id="self-introduction">
-					<label>个人描述：</label>
-					<textarea rows="5" cols="40" placeholder="这是一个多行输入框，输入您的个人描述" >
+				<div class="clr-both" id="self-introduction">
+					<label>个人描述</label>
+					<div class="fl-left mb-15">
+						<textarea rows="5" cols="20%" placeholder="这是一个多行输入框，输入您的个人描述" >
 						
-					</textarea>
+						</textarea>
+					</div>
 				</div>
 
-				<div class="mt-20 text-center ">
+				<div class=" text-center ">
 					<input  id="submit-button" class="bg-orange" type="submit" value="确认提交">
 				</div>
 				
