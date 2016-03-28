@@ -85,8 +85,10 @@ color: #d45d5c;
 .rContent-title{font-size:24px;
 	color:#000000;
 	text-decoration: underline;	
-	line-height:40px;
+	line-height:35px;
 	margin:0px;
+	text-transform: capitalize;
+font-variant: small-caps;
 }
 
 
@@ -99,6 +101,7 @@ color: #d45d5c;
 
 .green-700{font-size:116px;
 color:#75b86b;
+line-height: 137px;
 }
 
 .big-number{
