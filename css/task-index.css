@@ -50,7 +50,7 @@ body{background-color:rgb(247, 247, 247);
 				/*下面两行代码是解决float的子div撑开父div的情形*/
 				overflow:hidden;
 				zoom:1;
-				height:700px;
+				height:auto;
 			}	 		
 .text-ul{list-style-type: none;
 		}
@@ -59,12 +59,13 @@ body{background-color:rgb(247, 247, 247);
 .taskcard-back{
 	float:left;
 	margin:0px 20px 20px 20px;
-	padding:0px 20px;
+	padding:10px 20px;
 	border-radius: 5px;
 	background:#E5E3E3;
 	position:relative;
 	right:50%;
 	width:300px;
+	height:150px;
 }
 
 .task-row{position:relative;left:50%;float:left;}
